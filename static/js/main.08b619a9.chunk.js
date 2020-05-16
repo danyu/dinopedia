@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(e,n,t){e.exports=t(9)},8:function(e,n,t){},9:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),o=t(2),r=t.n(o);t(8);function l(){return c.a.createElement("div",{className:"App"},c.a.createElement("h1",null,"Welcome to Eric & Ethan's DinoPedia"))}var i=document.getElementById("root");r.a.render(c.a.createElement(c.a.StrictMode,null,c.a.createElement(l,null)),i)}},[[3,1,2]]]);
-//# sourceMappingURL=main.08b619a9.chunk.js.map
