@@ -1,0 +1,38 @@
+[
+  {
+    "name": "T-Rex",
+    "imgSrc": "https://thenypost.files.wordpress.com/2019/12/dinosaur-feature.jpg?quality=80&strip=all"
+  },
+  {
+    "name": "Troodon",
+    "imgSrc": "https://images.dinosaurpictures.org/Troodon_3c60.jpg"
+  },
+  {
+    "name": "T-rex",
+    "imgSrc": "https://natgeo.imgix.net/factsheets/thumbnails/01-trex-scotty_publicity_websize-credit--beth-zaiken.adapt.1900.1.jpg?auto=compress,format&w=1600&h=900&fit=crop"
+  },
+  {
+    "name": "Triceratops",
+    "imgSrc": "https://live.mrf.io/statics/i/ps/cdn.zmescience.com/wp-content/uploads/2018/03/Triceratops_BWMK.jpg?width=1200&enable=upscale"
+  },
+  {
+    "name": "Brachiosaurus",
+    "imgSrc": "https://images.dinosaurpictures.org/papo_brachiosaurus_2012_cf3f.jpg"
+  },
+  {
+    "name": "therizinosaurus",
+    "imgSrc": "https://museum.wa.gov.au/sites/default/files/imagecache/wam_v2_article_full_nocrop/att-images/2014/Therizinosaurus_0.jpg"
+  },
+  {
+    "name": "Stegosaurus",
+    "imgSrc": "https://www.renderhub.com/treeworld3d/game-ready-dinosaur-stegosaurus/game-ready-dinosaur-stegosaurus-01.jpg"
+  },
+  {
+    "name": "Giganotosaurus",
+    "imgSrc": "https://i0.wp.com/iknowdino.com/wp-content/uploads/2018/02/Giganotos_Db.jpg?fit=1280%2C640&ssl=1"
+  },
+  {
+    "name": "Carcharodontosaurus",
+    "imgSrc": "https://i.imgur.com/AQXjZ3E.jpg"
+  }
+]
