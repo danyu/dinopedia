@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dinopedia/precache-manifest.a40f2fc146fdd05e773330df86f60cad.js"
+  "/dinopedia/precache-manifest.8d2260443f06020a92a527d70c1acaf7.js"
 );
 
 self.addEventListener('message', (event) => {

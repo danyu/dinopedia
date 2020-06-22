@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dinopedia/static/css/main.943d968a.chunk.css",
-    "main.js": "/dinopedia/static/js/main.486c6548.chunk.js",
-    "main.js.map": "/dinopedia/static/js/main.486c6548.chunk.js.map",
+    "main.css": "/dinopedia/static/css/main.be09f782.chunk.css",
+    "main.js": "/dinopedia/static/js/main.e6491eb9.chunk.js",
+    "main.js.map": "/dinopedia/static/js/main.e6491eb9.chunk.js.map",
     "runtime~main.js": "/dinopedia/static/js/runtime~main.82ba9daf.js",
     "runtime~main.js.map": "/dinopedia/static/js/runtime~main.82ba9daf.js.map",
-    "static/js/2.9f6a3a9a.chunk.js": "/dinopedia/static/js/2.9f6a3a9a.chunk.js",
-    "static/js/2.9f6a3a9a.chunk.js.map": "/dinopedia/static/js/2.9f6a3a9a.chunk.js.map",
+    "static/js/2.7fe1e978.chunk.js": "/dinopedia/static/js/2.7fe1e978.chunk.js",
+    "static/js/2.7fe1e978.chunk.js.map": "/dinopedia/static/js/2.7fe1e978.chunk.js.map",
     "index.html": "/dinopedia/index.html",
-    "precache-manifest.a40f2fc146fdd05e773330df86f60cad.js": "/dinopedia/precache-manifest.a40f2fc146fdd05e773330df86f60cad.js",
+    "precache-manifest.8d2260443f06020a92a527d70c1acaf7.js": "/dinopedia/precache-manifest.8d2260443f06020a92a527d70c1acaf7.js",
     "service-worker.js": "/dinopedia/service-worker.js",
-    "static/css/main.943d968a.chunk.css.map": "/dinopedia/static/css/main.943d968a.chunk.css.map"
+    "static/css/main.be09f782.chunk.css.map": "/dinopedia/static/css/main.be09f782.chunk.css.map"
   }
 }
