@@ -5,10 +5,9 @@ import DinoProfile from './DinoProfile';
 
 function DinoList() {
   const [dinos, setDinos] = useState([]);
-  const [dinoProfile, setDinoProfile] = useState({});
+  const [selectedDino, setSelectedDino] = useState({});
 
   function sortByName(data) {
-    let _data = data;
     return data.sort(({ name: name1 }, { name: name2 }) => {
       let i = 0;
       let rst = false;
@@ -24,19 +23,19 @@ function DinoList() {
   useEffect(() => {
     getDinoList(MODE.remote).then(data => {
       setDinos(sortByName(data));
-      setDinoProfile(data[0]);
+      setSelectedDino(data[0]);
     });
     // setDinos(data);
   }, [])
 
-  const dinoClicked = (dino) => setDinoProfile(dino);
+  const dinoClicked = (dino) => setSelectedDino(dino);
 
   return (
     <div className='main'>
       <div className='dino-name-list'>
-        {dinos.map((dino) => {
+        {dinos.map((dino, i) => {
           return (
-            <div className={`dino-name-container ${dino.name === dinoProfile.name ? 'dino-name-selected' : ''}`} onClick={() => dinoClicked(dino)}>
+            <div key={dino.name + i} className={`dino-name-container ${dino.name === selectedDino.name ? 'dino-name-selected' : ''}`} onClick={() => dinoClicked(dino)}>
               <div className='dino-name'>
                 <span className='dino-name-text'>{dino.name}</span>
                 <div className='progress-fill'></div>
@@ -46,7 +45,7 @@ function DinoList() {
         })}
       </div>
       <div className='dino-profile' >
-        <DinoProfile {...dinoProfile} />
+        <DinoProfile dino={selectedDino} />
       </div>
     </div>
   )

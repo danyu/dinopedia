@@ -1,3 +1,6 @@
+html, body { 
+  /* height:100%;  */
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -18,10 +21,13 @@ img{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  height: 90vh;
+  padding-right: 15px;
+  overflow-y: scroll;
 }
 
-.dino-profile{
-  
+.dino-pic-container{
+  width: 900px;
 }
 
 .progress-fill{
@@ -69,4 +75,25 @@ img{
 .dino-name-container:hover .progress-fill, 
 .dino-name-selected .progress-fill {
   width: 100%;
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.basic-info-container{
+  margin-top: 32px;
+}
+
+.basic-info-row{
+ display: flex;
+ align-items: center;
+ margin-bottom: 16px;
+}
+
+.icon{
+  width: 32px;
+  height: 32px;
+  padding-right: 16px;
 }
