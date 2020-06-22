@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c63913c13aee494ade0cf8f86abcd80",
+    "revision": "97386103f325b9095fab7c7de2053d01",
     "url": "/dinopedia/index.html"
   },
   {
-    "revision": "00054f275fe9628f308c",
+    "revision": "9b23514ba99104f164e5",
     "url": "/dinopedia/static/css/main.be09f782.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dinopedia/static/js/2.7fe1e978.chunk.js"
   },
   {
-    "revision": "00054f275fe9628f308c",
-    "url": "/dinopedia/static/js/main.fe6372e6.chunk.js"
+    "revision": "9b23514ba99104f164e5",
+    "url": "/dinopedia/static/js/main.22984ead.chunk.js"
   },
   {
     "revision": "cf5d4404ae9d158d489c",
