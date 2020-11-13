@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getDinoList, MODE } from '../data/dataFetch';
-import "../styles.css";
+import styles from "./DinoList.module.css";
 import DinoProfile from './DinoProfile';
 
 function DinoList() {
@@ -31,22 +31,18 @@ function DinoList() {
   const dinoClicked = (dino) => setSelectedDino(dino);
 
   return (
-    <div className='main'>
-      <div className='dino-name-list'>
+    <div className={styles.main}>
+      <div className={styles.dinoNameList}>
         {dinos.map((dino, i) => {
+          const dinoNameClass = styles.dinoName + ' ' + (dino.name === selectedDino.name ? styles.dinoNameSelected : '');
           return (
-            <div key={dino.name + i} className={`dino-name-container ${dino.name === selectedDino.name ? 'dino-name-selected' : ''}`} onClick={() => dinoClicked(dino)}>
-              <div className='dino-name'>
-                <span className='dino-name-text'>{dino.name}</span>
-                <div className='progress-fill'></div>
-              </div>
+            <div key={dino.name + i} className={dinoNameClass} onClick={() => dinoClicked(dino)}>
+              {dino.name}
             </div>
           )
         })}
       </div>
-      <div className='dino-profile' >
-        <DinoProfile dino={selectedDino} />
-      </div>
+      <DinoProfile dino={selectedDino} />
     </div>
   )
 }

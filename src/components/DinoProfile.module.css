@@ -1,0 +1,23 @@
+
+.profileContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.dinoPicContainer{
+  /* width: 80vmin; */
+  text-align: center;
+  margin: 16px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+img{
+  max-height: 600px;
+  max-width: 100%;
+}

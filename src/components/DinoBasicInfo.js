@@ -1,19 +1,21 @@
 import React from 'react';
 import { icons, iconBasePath } from '../constants';
+import styles from './DinoBasicInfo.module.css';
 
 function DinoBasicInfo({ dino }) {
-  const keys = ['weight', 'height', 'length', 'diet'];
+  const keys = ['weight', 'height', 'length', 'diet', 'period'];
   return (
-    <div className='basic-info-container'>
+    <div className={styles.basicInfoContainer}>
       {
         keys.map((k) => {
-          return (<div key={k}>
-            <div className='basic-info-row'>
-              <img className='icon' src={iconBasePath + icons[k]} />
-              <span className='basic-info-title'>{k} </span>: {dino[k] || 'n/a'}</div>
-          </div>);
-        })
-      }
+          return (
+            <div className={styles.basicInfo} key={k}>
+              <img className={styles.icon} src={iconBasePath + icons[k]} />
+              <div className={styles.basicInfoTitle}>{k} </div>
+              <div className={styles.basicInfoFact}> {dino[k] || 'n/a'}</div>
+            </div>
+          );
+        })}
     </div>
   );
 };

@@ -1,0 +1,39 @@
+
+.basicInfoContainer{
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  /* justify-content: ; */
+  font-size: 28px;
+  width: 100%;
+  background-color: darkcyan;
+}
+
+.basicInfo{
+ /* margin: 16px; */
+ min-height:140px;
+ width: 100%;
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ justify-content: center;
+ border: solid thin white;
+ color: aliceblue;
+ text-transform: uppercase;
+ padding: 12px;
+}
+
+.basicInfoFact{
+  font-size: 30px;
+}
+
+.icon{
+  width: 36px;
+  height: 36px;
+  padding: 12px;
+  border: solid thin #ddd;
+  background-color: yellowgreen;
+  border-radius: 50%;
+
+  /* padding-right: 16px; */
+}

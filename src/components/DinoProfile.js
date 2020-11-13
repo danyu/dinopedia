@@ -1,17 +1,15 @@
-import '../styles.css';
 import React from 'react';
 import DinoBasicInfo from './DinoBasicInfo';
+import styles from './DinoProfile.module.css';
+
 export default function DinoProfile({ dino }) {
   const { name, imgSrc } = dino;
   return (
-    <div className='profile-container'>
-      <div className='dino-pic-container'>
-        {/* <div>{name}</div> */}
+    <div className={styles.profileContainer}>
+      <div className={styles.dinoPicContainer}>
         <img src={imgSrc} alt={name} />
       </div>
-      <div>
-        <DinoBasicInfo dino={{ ...dino }} ></DinoBasicInfo>
-      </div>
+      <DinoBasicInfo dino={{ ...dino }} ></DinoBasicInfo>
     </div>
   )
 }

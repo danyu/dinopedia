@@ -1,0 +1,39 @@
+.main{
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.dinoNameList{
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: steelblue;
+  /* z-index: 2; */
+  /* margin-right: 8px; */
+  min-width: 270px;
+}
+
+.dinoName{
+  font-size: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color:#222;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+
+.dinoName:hover {
+  background-color: rgb(193, 235, 110);
+}
+
+.dinoNameSelected{
+  background-color: yellowgreen;
+  /* color: #eee; */
+}
