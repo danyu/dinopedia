@@ -1,5 +1,4 @@
 import React from 'react';
-import DinoList from './DinoList';
 import styles from './Header.module.css';
 
 export default function () {

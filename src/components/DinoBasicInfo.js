@@ -10,7 +10,7 @@ function DinoBasicInfo({ dino }) {
         keys.map((k) => {
           return (
             <div className={styles.basicInfo} key={k}>
-              <img className={styles.icon} src={iconBasePath + icons[k]} />
+              <img className={styles.icon} alt={k} src={iconBasePath + icons[k]} />
               <div className={styles.basicInfoTitle}>{k} </div>
               <div className={styles.basicInfoFact}> {dino[k] || 'n/a'}</div>
             </div>
