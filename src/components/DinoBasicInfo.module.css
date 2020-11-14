@@ -3,14 +3,12 @@
   margin-top: 32px;
   display: flex;
   align-items: center;
-  /* justify-content: ; */
   font-size: 28px;
   width: 100%;
   background-color: darkcyan;
 }
 
 .basicInfo{
- /* margin: 16px; */
  min-height:140px;
  width: 100%;
  display: flex;
