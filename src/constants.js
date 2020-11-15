@@ -1,4 +1,4 @@
-export const iconBasePath = 'icons/';
+export const iconBasePath = './dinopedia/icons/';
 export const icons = Object.freeze({
   weight: 'weighing-scale.svg',
   height: 'ruler.svg',
