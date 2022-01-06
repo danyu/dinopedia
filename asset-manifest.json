@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/dinopedia/static/css/main.c056c986.chunk.css",
-    "main.js": "/dinopedia/static/js/main.55d7a7a2.chunk.js",
-    "main.js.map": "/dinopedia/static/js/main.55d7a7a2.chunk.js.map",
-    "runtime~main.js": "/dinopedia/static/js/runtime~main.82ba9daf.js",
-    "runtime~main.js.map": "/dinopedia/static/js/runtime~main.82ba9daf.js.map",
-    "static/js/2.b1c78485.chunk.js": "/dinopedia/static/js/2.b1c78485.chunk.js",
-    "static/js/2.b1c78485.chunk.js.map": "/dinopedia/static/js/2.b1c78485.chunk.js.map",
-    "index.html": "/dinopedia/index.html",
-    "precache-manifest.3af23c6e889621a393ac38dc44dd72c0.js": "/dinopedia/precache-manifest.3af23c6e889621a393ac38dc44dd72c0.js",
-    "service-worker.js": "/dinopedia/service-worker.js",
-    "static/css/main.c056c986.chunk.css.map": "/dinopedia/static/css/main.c056c986.chunk.css.map"
-  }
+    "main.css": "/static/css/main.1150c6c8.chunk.css",
+    "main.js": "/static/js/main.8e581c34.chunk.js",
+    "main.js.map": "/static/js/main.8e581c34.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.851541dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.851541dd.js.map",
+    "static/js/2.9fc13f4e.chunk.js": "/static/js/2.9fc13f4e.chunk.js",
+    "static/js/2.9fc13f4e.chunk.js.map": "/static/js/2.9fc13f4e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1150c6c8.chunk.css.map": "/static/css/main.1150c6c8.chunk.css.map",
+    "static/js/2.9fc13f4e.chunk.js.LICENSE.txt": "/static/js/2.9fc13f4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.851541dd.js",
+    "static/js/2.9fc13f4e.chunk.js",
+    "static/css/main.1150c6c8.chunk.css",
+    "static/js/main.8e581c34.chunk.js"
+  ]
 }
