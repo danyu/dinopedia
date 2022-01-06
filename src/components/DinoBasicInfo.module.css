@@ -1,6 +1,6 @@
-
-.basicInfoContainer{
-  margin-top: 32px;
+.basicInfoContainer {
+  bottom: 0px;
+  /* margin-top: 32px; */
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -8,25 +8,25 @@
   background-color: darkcyan;
 }
 
-.basicInfo{
- min-height:140px;
- width: 100%;
- display: flex;
- flex-flow: column;
- align-items: center;
- justify-content: space-around;
- border: solid thin white;
- color: aliceblue;
- text-transform: uppercase;
- padding: 12px;
+.basicInfo {
+  min-height: 140px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  border: solid thin white;
+  color: aliceblue;
+  text-transform: uppercase;
+  padding: 12px;
 }
 
-.basicInfoTitle{
+.basicInfoTitle {
   font-size: 16px;
   color: black;
 }
 
-.icon{
+.icon {
   width: 36px;
   height: 36px;
   padding: 12px;
