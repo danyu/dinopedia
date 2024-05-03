@@ -1,5 +1,4 @@
-
-.profileContainer{
+.profileContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -7,17 +6,17 @@
   justify-content: flex-start;
 }
 
-
-.dinoPicContainer{
+.dinoPicContainer {
   /* width: 80vmin; */
   text-align: center;
   margin: 16px;
   height: 600px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
-img{
+img {
   max-height: 600px;
   max-width: 100%;
 }
